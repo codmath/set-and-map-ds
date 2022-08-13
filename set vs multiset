@@ -1,0 +1,30 @@
+They are associative containers that store unique elements following a specific order.
+SETS:
+Stores the values in sorted order. 
+Stores only unique values. 
+Elements can only be inserted or deleted but cannot be modified. 
+We can erase more than 1 element by giving the start iterator and end iterator position. 
+Traversal using iterators. 
+Sets are implemented as Binary Search Tree.
+MULTISETS:
+They are associative containers that store multiple elements having equivalent values following a specific order. Following are the properties of multisets:
+
+Stores elements in sorted order. 
+It allows the storage of multiple elements. 
+We can erase more than 1 element by giving the start iterator and end iterator
+
+UNORDERED SET:
+They are associative containers that store unique elements in no particular order. Following are the properties of Unordered_sets: 
+
+Elements can be stored in any order. ( no sorted order ) .
+Stores only unique values. 
+Hash-table used to store elements. 
+We can erase only the element for which the iterator position is given.
+
+UNORDERD MULTISET:
+It is an associative container that contains a set of non-unique elements in unsorted order. Following are the properties of Unordered_multiset: 
+
+Elements can be stored in any order. 
+Duplicate elements can be stored. 
+Hash-table used to store elements. 
+We can erase only the element for which the iterator position is given
